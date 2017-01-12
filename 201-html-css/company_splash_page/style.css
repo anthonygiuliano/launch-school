@@ -1,0 +1,54 @@
+body {
+  background-image: url("bg_body.gif");
+  background-repeat: repeat;
+  font: normal 20px Helvetica, Arial, sans-serif;
+  color: #45494d;
+  padding: 75px 0 50px 0;
+}
+
+main {
+  box-sizing: border-box;
+  background: white;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 75px 0 0 0;
+}
+
+article {
+  padding: 0 110px 100px 110px;
+}
+
+h1 img {
+  margin: auto;
+  display: block;
+}
+
+h3 {
+  text-align: center;
+}
+
+footer {
+  background: #e7e7e7;
+  padding: 15px 0 15px 0;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: auto;
+  width: 33%;
+}
+
+footer ul li img {
+  margin: auto;
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}

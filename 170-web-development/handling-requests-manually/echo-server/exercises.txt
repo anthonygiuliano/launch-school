@@ -1,0 +1,39 @@
+1. Given the following URL:
+`https://amazon.com/Double-Stainless-Commercial-Refrigerator/B60HON32?ie=UTF8&qid=142952676&sr=93&keywords=commercial+fridge`
+
+a. Host: amazon.com
+b. Query Parameter Names: ie, qid, sr, keywords
+c. Query Parameter Values: UTF8, 142952676, 93, commercial+fridge
+d. Protocol: https
+e. Path: /Double-Stainless-Commercial-Refrigerator/B60HON32
+f. Port: 443
+
+2. Add port 3000 to the following URL:
+`http://amazon.com/products/B60HON32?qid=142952676&sr=93`
+`http://amazon.com:3000/products/B60HON32?qid=142952676&sr=93`
+
+3. Given the following URL:
+`http://localhost:4567/todos/15`
+
+a. Query Parameters: none
+b. Protocol: http
+c. Path: /todos/15
+d. Host: localhost
+e. Port: 4567
+
+4. What are two different ways to encode a space in a query parameter? We didn't cover this in the lectures, so feel free to search online for the answer.
+
+a. %20
+b. +
+
+5. What character indicates the beginning of a URL's query parameters?
+
+?
+
+6. What character is used between the name and value of a query parameter?
+
+=
+
+7. What character is used between multiple query parameters?
+
+&

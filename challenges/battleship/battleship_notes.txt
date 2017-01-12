@@ -1,0 +1,25 @@
+Battleship is played by a human player and a computer player.  Each player has a 5x5 board, and the game places 3 ships randomly on each board.  A ship can be 1, 2, or 3 units long, and can be positioned horizontally or vertically. The ships must be contained entirely within the 5x5 board and cannot overlap.  Players take turns firing squares on the opponent's board, hoping to hit one of the opponent's ships. The board displays a blank space to represent squares that have not been fired at yet, a '/' to represent a square that has been fired at but no ship was there, and 'X' to represent a square that has a ship that has been hit. A ship is 'sunk' when all of it's units on the board have been hit.  The game is over when all of one player's ships are sunk.
+
+Board
+  @ships
+  :display
+  :place_ships
+Player
+  @name
+  @board
+  :fire
+Square
+  @status (miss, hit)
+  @coordinates
+Ship
+  @size (number of units occupied)
+  @squares (array of squares)
+  @direction (horizontal, vertical)
+  :shots_taken (count of squares whose status is hit)
+  :status (alive, sunk)
+Game
+  @human
+  @computer
+  :play
+
+Game > Player > Board > Ship > Square
